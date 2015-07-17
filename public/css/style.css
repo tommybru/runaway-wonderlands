@@ -25,7 +25,7 @@
 
 #main-header h3 {
   font-family: 'Oswald', sans-serif;
-  font-size: 225%;
+  font-size: 175%;
 	text-align: center;
   margin: 0% 20%;
   color: #F4F7FA;
@@ -45,7 +45,7 @@
   background: rgba(140, 109, 174,0.7);
   padding-top: 10vh;
   font-family: 'Oswald', sans-serif;
-  font-size: 3em;
+  font-size: 225%;
   text-align: center;
   color: white;
   height: 54%;
@@ -61,7 +61,7 @@
   padding: 1vh 4vw;
   background: none;
   text-align: center;
-  font-size: 1em;
+  font-size: 100%;
   border: solid 6px rgba(0,0,0,.2);
   margin: 0;
 }
@@ -76,7 +76,7 @@
 #quote {
   padding: 10vh;
   text-align: center;
-  font-size: 300%;
+  font-size: 225%;
   color: rgba(255,0,0,.2);
   background: white;
   font-family: 'Oswald', sans-serif;
@@ -91,7 +91,7 @@
   opacity: .7;
 }
 #phrase-title {
-  padding: 3vh;
+  padding: 225%;
   text-align: center;
   font-size: 300%;
   color: white;
@@ -107,7 +107,7 @@
   color: white;
   margin: 1% 5% 0% 5%; 
   padding-bottom: 4%;
-  font-size: 300%;
+  font-size: 225%;
   text-align: center;
   text-shadow: 4px 3px 4px rgba(0,0,0,.5);
   font-style: italic;
