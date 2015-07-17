@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <title>Runaway Wonderlands</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">  
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+ </head>
+  
+ <body>
+   <header id="main-header">
+     <h1>Runaway Wonderlands</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+      <h3> the private language of the underworld: a source of poetry inspiration.</h3>
+      <img id="down-arrow" src="images/down_arrow.png">
+    </header>
+   
+   <div id="submission">
+     
+     <form action="https://docs.google.com/forms/d/1BYdT2xw_VGj3lWfmTepF3I98xdSf4Emn8CwblhtbS9s/formResponse" method="POST" id="ss-form" target="_self"  onSubmit="window.open('/'); window.close('_self');"><ol role="list" class="ss-question-list" style="padding-left: 0">
+       <div class="ss-form-question errorbox-good" role="listitem">
+         <div dir="ltr" class="ss-item  ss-text">
+           <div class="ss-form-entry">
+            <label class="ss-q-item-label" for="entry_650251283">
+              <div class="ss-q-title">submit a new phrase and expand the wonderlands:</div>
+  <br>
+               <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+            </label>
+            <input type="text" name="entry.650251283" value="" id="text" class="ss-q-short valid"  style="width:70%; height:1.25;" id="entry_650251283" dir="auto" aria-label="Share a personal phrase  " title="">
+            <div class="error-message" id="2035320529_errorMessage"></div>
+           </div>
+         </div>
+       </div>
+       <br>
+        <input syle="text-align: center;" type="submit" name="submit" value="Submit" id="submit-button"> 
+            
+       <input type="hidden" name="draftResponse" value="[,,&quot;-8807932521704985195&quot;]">
+       <input type="hidden" name="pageHistory" value="0">
+       <input type="hidden" name="fbzx" value="-8807932521704985195">
+       <div class="ss-item ss-navigate">
+         <table id="navigation-table">
+           <tbody>
+             <tr>
+               <td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+<br>
+<!--                  <div class="submit_button">
+<!--                     <input syle="text-align: center;" type="submit" name="submit" value="Submit" id="submit-button"> </div> -->
+               </td>
+             </tr>
+           </tbody>
+         </table>
+       </div>
+       </ol>
+     </form>
+   </div>
+   <div id="quote">
+   <h2> These are our wonderlands. 
+     <br>
+     Explore, inspire, create. </h2>
+   </div>
+   <span id="refresh_phrases">
+     <div id="phrase-title">
+     <h3> Reverberating & Evoking Phraseology:  </h3>
+     <form>
+        <input type="button" id="refresh-button" onClick="history.go(0)" VALUE="Inspire Me Again">
+      </form> 
+     </div>
+      <div id="phrases">
+     <br>
+     <br>
+     <div class="nature">
+   <%= @nature_item%>
+        </div>
+       <br>
+       <br>
+       <div class="lyrics">
+   <%= @lyric_item2%>
+     </div>
+     <br>
+     <br>
+     <div class="love">
+   <%= @love_item2%>
+     </div>
+     <br>
+     <br>
+     <div class="philosophy">
+   <%= @philosophy_item%>
+     </div>
+       <br>
+       <br>
+       <div class="lyrics">
+   <%= @lyric_item%>
+     </div>
+         <br>
+         <br>
+     <div class="love">
+   <%= @love_item%>
+     </div>
+   </div>
+     </span>
+   
+ </body>
+</html>
