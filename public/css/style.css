@@ -158,7 +158,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  #main-header {
+  body {
     width: 100vw;
   }
   #main-header h1{
@@ -180,7 +180,7 @@
   font-size: 100%;
 }
   #quote {
-    font-size: 75%;
+    font-size: 150%;
   }
   
   #phrases-title {
@@ -191,7 +191,7 @@
   #quote {
   padding: 10vh;
   text-align: center;
-  font-size: 300%;
+  font-size: 100%;
   color: rgba(255,0,0,.2);
   background: white;
   font-family: 'Oswald', sans-serif;
@@ -220,13 +220,11 @@
 
 .lyrics, .nature, .love, .philosophy {
   font-family: 'Lato', sans-serif;
-  color: blue;
   margin: 1% 5% 0% 5%; 
   padding-bottom: 4%;
-  font-size: 300%;
+  font-size: 100%;
   text-align: center;
   text-shadow: 4px 3px 4px rgba(0,0,0,.5);
-  font-style: italic;
 /*   border-bottom: solid 1px white; */
 }
 
