@@ -5,7 +5,8 @@
   background-size: cover;
   height: 90vh;
   max-height: 100vh;
-  width: 100vw;
+  max-width: 99vw;
+  width: 99vw;
 }
 
 #main-header h1{
@@ -109,12 +110,13 @@
   font-size: 300%;
   text-align: center;
   text-shadow: 4px 3px 4px rgba(0,0,0,.5);
+  font-style: italic;
 /*   border-bottom: solid 1px white; */
 }
 
 .nature:hover, .philosophy:hover, .lyrics:hover, .love:hover {
   font-family: 'Lato', sans-serif;
-  font-style: italic;
+  font-style: normal;
  }
 
 #refresh-button {
@@ -178,11 +180,71 @@
     font-size: 150%;
   }
   
-  #phrases {
+  #phrases-title {
   font-size: 150%;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
+  #quote {
+  padding: 10vh;
+  text-align: center;
+  font-size: 300%;
+  color: rgba(255,0,0,.2);
+  background: white;
+  font-family: 'Oswald', sans-serif;
+  background-size: cover;
+}
+
+
+#phrases {
+  background: 
+    linear-gradient( 180deg, rgb(77, 151, 204),  rgba(200, 109, 154, .8));;
+  background-size: cover;
+  opacity: .7;
+}
+  
+#phrase-title {
+  padding: 3vh;
+  text-align: center;
+  font-size: 100%;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background: rgba(77, 151, 204, .7);
+  margin: 0%;
+  padding-bottom: 10vh;
+}
+
+.lyrics, .nature, .love, .philosophy {
+  font-family: 'Lato', sans-serif;
+  color: blue;
+  margin: 1% 5% 0% 5%; 
+  padding-bottom: 4%;
+  font-size: 300%;
+  text-align: center;
+  text-shadow: 4px 3px 4px rgba(0,0,0,.5);
+  font-style: italic;
+/*   border-bottom: solid 1px white; */
+}
+
+.nature:hover, .philosophy:hover, .lyrics:hover, .love:hover {
+  font-family: 'Lato', sans-serif;
+ }
+
+#refresh-button {
+  padding: 1vh 4vw;
+  background: none;
+  text-align: center;
+  font-size: 1em;
+  border: solid 6px rgba(0,0,0,.2);
+}
+
+#refresh-button:hover {
+  padding: 1vh 4vw;
+  background: #4CAF50;
+  border: solid 8px #4CAF50;
+}
+
 }
 
 @media screen and (max-width: 340px) {

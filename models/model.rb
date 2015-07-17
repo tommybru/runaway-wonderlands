@@ -81,6 +81,6 @@ def puts_philosophy_item
     "Man is the only creature who refuses to be what he is. — Albert Camus",
     "If a cluttered desk is a sign of a cluttered mind, of what, then, is an empty desk a sign? — Albert Einstein",
     "Never let your sense of morals prevent you from doing what is right. 
-— Isaac Asimov (Foundation (Foundation, #1))" ]
+— Isaac Asimov" ]
   philosophy_array[rand(philosophy_array.count)]
 end 
