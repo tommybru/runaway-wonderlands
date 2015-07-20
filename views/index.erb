@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
   <link rel="stylesheet" href="css/style.css">  
   <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
  </head>
   
  <body>
@@ -17,22 +17,86 @@
         <br>
         <br>
         <br>
-      <h3> the private language of the underworld: a source of poetry inspiration.</h3>
+      <h3> the private language of the underworld:
+        <br>
+        a source of creative inspiration.</h3>
       <img id="down-arrow" src="images/down_arrow.png">
     </header>
+
+    <div id="intro">
+       <h3> Welcome, these are our Wonderlands.  </h3>
+      <ul>
+       <li> <h4 id="explore"> Explore <h5> Ignite creativity with user-submitted inspiring phrases.</h5> </h4>
+        <li> <h4 id="inspire"> Inspire <h5> Ablaze others' mind by sharing what engulfs yours.</h5> </h4>
+       <li> <h4 id="create"> Create <h5> Use the phrases for social media captions or poetry themes.</h5> </h4>
+      </ul>
+   </div>
+      <div class="quote" id="quote1">
+     <h2> Explore Below.</h2>
+   </div>
+   
+   <span id="refresh_phrases">
+     
+     <div id="phrase-title">
+       <span id="phraseslocation">
+       <h3> Reverberating & Evoking Phraseology:  </h3>
+       </span>
+       <h4> here forever lies the heart of our wonderlands. <br>this is where we ignite our creative minds.</h4>
+        <form>
+            <input type="button" id="refresh-button" target="_self" onClick="history.go(0)" VALUE="Inspire Me Again"> 
+        </form>
+       <div id="phrases">
+             <div class="lyrics">
+               <%= @lyric_item %>
+             </div>
+           <br>
+             <div class="love">
+               <%= @love_item%>
+             </div>
+           <br>
+             <div class="nature">
+               <%= @nature_item %>
+             </div>
+           <br>
+             <div class="philosophy">
+               <%= @philosophy_item2%>
+             </div>
+         <br>
+             <div class="lyrics">
+               <%= @lyric_item2 %>
+             </div>
+           <br>
+             <div class="love">
+               <%= @love_item2 %>
+             </div>
+           <br>
+             <div class="philosophy">
+               <%= @philosophy_item%>
+             </div>
+         </div>
+     </div> 
+     
+   </span>
+   
+   <div class="quote" id="quote2">
+   <h2> 
+     Inspire Others. </h2>
+   </div>
    
    <div id="submission">
      
-     <form action="https://docs.google.com/forms/d/1BYdT2xw_VGj3lWfmTepF3I98xdSf4Emn8CwblhtbS9s/formResponse" method="POST" id="ss-form" target="_self"  onSubmit="window.open('/'); window.close('_self');"><ol role="list" class="ss-question-list" style="padding-left: 0">
+     <form action="https://docs.google.com/forms/d/1BYdT2xw_VGj3lWfmTepF3I98xdSf4Emn8CwblhtbS9s/formResponse" method="POST" id="ss-form" target="_self"  onSubmit="window.open('/#phraseslocation'); window.close('_self');"><ol role="list" class="ss-question-list" style="padding-left: 0">
        <div class="ss-form-question errorbox-good" role="listitem">
          <div dir="ltr" class="ss-item  ss-text">
            <div class="ss-form-entry">
             <label class="ss-q-item-label" for="entry_650251283">
-              <div class="ss-q-title">submit a new phrase and expand the wonderlands:</div>
-  <br>
-               <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+              <div class="ss-q-title">
+                submit your new phrase to expand the wonderlands:
+              </div>
+              <h4> share unique song lyrics, awesome writing, and philosophies to live by. </h4>
+              <br>
             </label>
-            <input type="text" name="entry.650251283" value="" id="text" class="ss-q-short valid"  style="width:70%; height:1.25;" id="entry_650251283" dir="auto" aria-label="Share a personal phrase  " title="">
+            <input type="text" name="entry.650251283" value="" id="text" class="ss-q-short valid"  style="width:70%; height:1.50;" placeholder="works best with Chrome" id="entry_650251283" dir="auto" aria-label="Share a personal phrase  " title="">
             <div class="error-message" id="2035320529_errorMessage"></div>
            </div>
          </div>
@@ -59,51 +123,19 @@
        </ol>
      </form>
    </div>
-   <div id="quote">
-   <h2> These are our wonderlands. 
-     <br>
-     Explore, inspire, create. </h2>
-   </div>
-   <span id="refresh_phrases">
-     <div id="phrase-title">
-     <h3> Reverberating & Evoking Phraseology:  </h3>
-     <form>
-        <input type="button" id="refresh-button" onClick="history.go(0)" VALUE="Inspire Me Again">
-      </form> 
-     </div>
-      <div id="phrases">
-     <br>
-     <br>
-     <div class="nature">
-   <%= @nature_item%>
-        </div>
-       <br>
-       <br>
-       <div class="lyrics">
-   <%= @lyric_item2%>
-     </div>
-     <br>
-     <br>
-     <div class="love">
-   <%= @love_item2%>
-     </div>
-     <br>
-     <br>
-     <div class="philosophy">
-   <%= @philosophy_item%>
-     </div>
-       <br>
-       <br>
-       <div class="lyrics">
-   <%= @lyric_item%>
-     </div>
-         <br>
-         <br>
-     <div class="love">
-   <%= @love_item%>
-     </div>
-   </div>
-     </span>
    
  </body>
+  <footer>
+    <p class="footer-links">
+        <p>Programmed & Designed By:</p>
+				<a href="https://instagram.com/tommybruzzese7/">Tommy Bruzzese</a>
+				·
+				<a href="https://instagram.com/wojonator/">Allie Wojnowski</a>
+				·
+				<a>Tim Bifano</a>
+				·
+				<a>Graeme Mills</a>
+    <p class="footer-company-name">Runaway Wonderlands © 2015</p>
+
+   </footer>
 </html>
