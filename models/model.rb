@@ -88,6 +88,10 @@ def puts_philosophy_item
     "life is boundless.",
     "find a passion and love it endlessly.",
     "create yourself.",
-    "Be young, be dope, be proud -Lana Del Rey"]
+    "Be young, be dope, be proud -Lana Del Rey", 
+    "nothing is worse than realizing it was national ice-cream day after it's over.",
+    "life's too short to not always try and be happy.",
+    "never stop learning on the road to wisdom!",
+    "We are the leaders of the not coming back"]
   philosophy_array[rand(philosophy_array.count)]
 end 
