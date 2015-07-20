@@ -238,7 +238,7 @@ footer {
 	box-sizing: border-box;
 	width: 100%;
 	text-align: center;
-	font: bold 1.25em 'Lato', sans-serif;
+  font: 1.25em 'Oswald', sans-serif;
   color: rgba(140, 109, 174,0.9);
 	padding: 2%;
 	margin-top: 5%;
