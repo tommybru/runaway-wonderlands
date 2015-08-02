@@ -52,7 +52,9 @@ None but ourselves can free our minds.” ― Bob Marley",
     "“Let's get out of this town babe, we're on fire”  ― Lana Del Rey",
     "“but now's our curtain call”  ― Kygo",
     "“and I will haunt you like a ghost”  ― Margot and the Nuclear So & So's",
-    "“and I wrote this on an airplane where people looked like ants.”  ― Margot and the Nuclear So & So's"]
+    "“and I wrote this on an airplane where people looked like ants.”  ― Margot and the Nuclear So & So's",
+    "'music is a universal language'  ― Halsey",
+    "“Syncapate my skin to your heart beating”  ― Selena Gomez "]
   lyrics_array[rand(lyrics_array.count)]
 end
 
@@ -147,6 +149,7 @@ def puts_philosophy_item
     "The dreams that are meant to, WILL come true.",
     "Wish on every shooting star, on every birthday candle, and every 11:11.",
     "it's simple, but: be you.",
-    "shirt inside out & life upside down"]
+    "shirt inside out & life upside down",
+    "become a complex person."]
   philosophy_array[rand(philosophy_array.count)]
 end 
