@@ -49,7 +49,7 @@
 
 #intro {
   text-align: center;
-  font-size: 175%;
+  font-size: 3em;
   color: white;
   font-family: 'Oswald', sans-serif;
   text-align: center;
@@ -371,6 +371,7 @@ a:link {
     font-size: 90%;
     padding-top: 2%;
   }
+
   #intro ul {
     margin: 0;
     padding: 0;
