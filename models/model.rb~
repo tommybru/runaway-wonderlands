@@ -54,10 +54,7 @@ None but ourselves can free our minds.” ― Bob Marley",
     "“and I will haunt you like a ghost”  ― Margot and the Nuclear So & So's",
     "“and I wrote this on an airplane where people looked like ants.”  ― Margot and the Nuclear So & So's",
     "'music is a universal language'  ― Halsey",
-    "“Syncapate my skin to your heart beating”  ― Selena Gomez ",
-    "“I'll be Bonnie, you can be Clyde. We're the outlaws”  ― Allesia Cara ",
-    "“I'm friends with the monsters under my bed, get along with the voices inside my head.”  ― Rihanna ",
-    "“You're trying to save me. Stop holding your breath.”  ― Rihanna "]
+    "“Syncapate my skin to your heart beating”  ― Selena Gomez "]
   lyrics_array[rand(lyrics_array.count)]
 end
 
@@ -82,7 +79,7 @@ def puts_nature_item
     "No snowflake ever falls in the wrong place.",
     "And as we wind on down the road...",
     "when the fireworks soar above",
-    "typos are for kool kids" ]
+    "typos are for kool kids"]
   nature_array[rand(nature_array.count)]
 end
 
@@ -153,8 +150,6 @@ def puts_philosophy_item
     "Wish on every shooting star, on every birthday candle, and every 11:11.",
     "it's simple, but: be you.",
     "shirt inside out & life upside down",
-    "become a complex person.", 
-    "Smile while you still have teeth" ,
-    "Not even they can stop me now. Their heavy words can't bring me down." ]
+    "become a complex person."]
   philosophy_array[rand(philosophy_array.count)]
 end 
