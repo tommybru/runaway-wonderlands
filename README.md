@@ -1,12 +1,3 @@
----
-tags: kids, mvc
-languages: ruby
-type: interactive practice
----
+## Runaway Wonderlands: A topic generator for blocked writers.
 
-##Sinatra Template
-
-Fork and clone this repository to use as a template for your project.
-
-
-
+Implemented using HTML/CSS and Ruby on Rails.
